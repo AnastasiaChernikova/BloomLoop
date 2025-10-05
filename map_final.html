@@ -1,0 +1,677 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_ddbbdf687110fa529e4450e8eefefa82 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_ddbbdf687110fa529e4450e8eefefa82" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_ddbbdf687110fa529e4450e8eefefa82 = L.map(
+                "map_ddbbdf687110fa529e4450e8eefefa82",
+                {
+                    center: [35.33227261430306, -117.36797530489041],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 8,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_90c3b124f0dd0176eb54d68ce4e42d70 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_90c3b124f0dd0176eb54d68ce4e42d70.addTo(map_ddbbdf687110fa529e4450e8eefefa82);
+        
+    
+            var marker_3058eee3051f10a5548befbae1ebeddf = L.marker(
+                [33.95166981918193, -117.77741686241707],
+                {
+}
+            ).addTo(map_ddbbdf687110fa529e4450e8eefefa82);
+        
+    
+        var popup_e1176ec9319ed35e3937187e33dec71b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_80ba8e325d75302710ce31ed567f70dd = $(`<div id="html_80ba8e325d75302710ce31ed567f70dd" style="width: 100.0%; height: 100.0%;">Chino Hills</div>`)[0];
+                popup_e1176ec9319ed35e3937187e33dec71b.setContent(html_80ba8e325d75302710ce31ed567f70dd);
+            
+        
+
+        marker_3058eee3051f10a5548befbae1ebeddf.bindPopup(popup_e1176ec9319ed35e3937187e33dec71b)
+        ;
+
+        
+    
+    
+            var marker_7c9c61f49874e4f0a2e9d7a6e7fc38dd = L.marker(
+                [35.146942409681806, -119.84188606206443],
+                {
+}
+            ).addTo(map_ddbbdf687110fa529e4450e8eefefa82);
+        
+    
+        var popup_e1fab5188bb544ddedd53d8f8c3bc136 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c256de858ebc256781dd61e8c6191365 = $(`<div id="html_c256de858ebc256781dd61e8c6191365" style="width: 100.0%; height: 100.0%;">Carrizo Plain National Monument</div>`)[0];
+                popup_e1fab5188bb544ddedd53d8f8c3bc136.setContent(html_c256de858ebc256781dd61e8c6191365);
+            
+        
+
+        marker_7c9c61f49874e4f0a2e9d7a6e7fc38dd.bindPopup(popup_e1fab5188bb544ddedd53d8f8c3bc136)
+        ;
+
+        
+    
+    
+            var marker_4952c1b12afb9ac99f54118b5695ff77 = L.marker(
+                [34.71508854816104, -118.38375490231141],
+                {
+}
+            ).addTo(map_ddbbdf687110fa529e4450e8eefefa82);
+        
+    
+        var popup_d925d13afb98ec896e83c2b90f4c4adb = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1563954bee380433eb631aa599fbe795 = $(`<div id="html_1563954bee380433eb631aa599fbe795" style="width: 100.0%; height: 100.0%;">Antelope Valley California Poppy Reserve</div>`)[0];
+                popup_d925d13afb98ec896e83c2b90f4c4adb.setContent(html_1563954bee380433eb631aa599fbe795);
+            
+        
+
+        marker_4952c1b12afb9ac99f54118b5695ff77.bindPopup(popup_d925d13afb98ec896e83c2b90f4c4adb)
+        ;
+
+        
+    
+    
+            var marker_1c498d3e44a9efdc525f6dbf916eeaf6 = L.marker(
+                [34.509933072776434, -120.44991007449295],
+                {
+}
+            ).addTo(map_ddbbdf687110fa529e4450e8eefefa82);
+        
+    
+        var popup_bdb7a7e42c19290871b842a27401a6d2 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a2d8561e27bc611a14f02bcbfc0e62d4 = $(`<div id="html_a2d8561e27bc611a14f02bcbfc0e62d4" style="width: 100.0%; height: 100.0%;">Laura and Jack Dangermond Reserve</div>`)[0];
+                popup_bdb7a7e42c19290871b842a27401a6d2.setContent(html_a2d8561e27bc611a14f02bcbfc0e62d4);
+            
+        
+
+        marker_1c498d3e44a9efdc525f6dbf916eeaf6.bindPopup(popup_bdb7a7e42c19290871b842a27401a6d2)
+        ;
+
+        
+    
+    
+            var marker_b80be5536fa159e389dde7f2ce6d4c48 = L.marker(
+                [34.714133066149834, -120.02672563715527],
+                {
+}
+            ).addTo(map_ddbbdf687110fa529e4450e8eefefa82);
+        
+    
+        var popup_315f763fd2234f28b47eeee988a77e90 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_da4c8c2e279c7ce18cd6b79f292c3717 = $(`<div id="html_da4c8c2e279c7ce18cd6b79f292c3717" style="width: 100.0%; height: 100.0%;">Sedgwick Reserve</div>`)[0];
+                popup_315f763fd2234f28b47eeee988a77e90.setContent(html_da4c8c2e279c7ce18cd6b79f292c3717);
+            
+        
+
+        marker_b80be5536fa159e389dde7f2ce6d4c48.bindPopup(popup_315f763fd2234f28b47eeee988a77e90)
+        ;
+
+        
+    
+    
+            var marker_76b2e3e3d3c1bdb8d0a9d89e9e848b34 = L.marker(
+                [32.960136205788935, -116.17218599686092],
+                {
+}
+            ).addTo(map_ddbbdf687110fa529e4450e8eefefa82);
+        
+    
+        var popup_1c5979d88aea6c902ceff82ffaedf4d3 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8837319143a0807bbcbbda800f028a2a = $(`<div id="html_8837319143a0807bbcbbda800f028a2a" style="width: 100.0%; height: 100.0%;">Anza-Borrego Desert State Park</div>`)[0];
+                popup_1c5979d88aea6c902ceff82ffaedf4d3.setContent(html_8837319143a0807bbcbbda800f028a2a);
+            
+        
+
+        marker_76b2e3e3d3c1bdb8d0a9d89e9e848b34.bindPopup(popup_1c5979d88aea6c902ceff82ffaedf4d3)
+        ;
+
+        
+    
+    
+            var marker_0aecce7e82da37b53e419d9538388ba1 = L.marker(
+                [35.20683019716795, -120.81383375664178],
+                {
+}
+            ).addTo(map_ddbbdf687110fa529e4450e8eefefa82);
+        
+    
+        var popup_1e647e6c6759b81420eb965271fcef94 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_99bd2727d90fd4389ceeddad1d9a2895 = $(`<div id="html_99bd2727d90fd4389ceeddad1d9a2895" style="width: 100.0%; height: 100.0%;">Montaña de Oro State Park</div>`)[0];
+                popup_1e647e6c6759b81420eb965271fcef94.setContent(html_99bd2727d90fd4389ceeddad1d9a2895);
+            
+        
+
+        marker_0aecce7e82da37b53e419d9538388ba1.bindPopup(popup_1e647e6c6759b81420eb965271fcef94)
+        ;
+
+        
+    
+    
+            var marker_f458b45dd3e443e6d788a1312865425f = L.marker(
+                [34.69766409427796, -119.75271885646208],
+                {
+}
+            ).addTo(map_ddbbdf687110fa529e4450e8eefefa82);
+        
+    
+        var popup_23d9db4c3f375a43852fe88ac6f91493 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0910f6bf01aec035f0fd374136de6487 = $(`<div id="html_0910f6bf01aec035f0fd374136de6487" style="width: 100.0%; height: 100.0%;">Figueroa Mountain</div>`)[0];
+                popup_23d9db4c3f375a43852fe88ac6f91493.setContent(html_0910f6bf01aec035f0fd374136de6487);
+            
+        
+
+        marker_f458b45dd3e443e6d788a1312865425f.bindPopup(popup_23d9db4c3f375a43852fe88ac6f91493)
+        ;
+
+        
+    
+    
+            var marker_5b415fa7d3f9550f27f1d1ed37b0e30e = L.marker(
+                [37.84725178498502, -120.471497030333],
+                {
+}
+            ).addTo(map_ddbbdf687110fa529e4450e8eefefa82);
+        
+    
+        var popup_2deb09dadeb8d38c0fbc06bcf3952387 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_94f896dbb36c7a28d61e2329a2acd37c = $(`<div id="html_94f896dbb36c7a28d61e2329a2acd37c" style="width: 100.0%; height: 100.0%;">Red Hills Recreational Managment Area</div>`)[0];
+                popup_2deb09dadeb8d38c0fbc06bcf3952387.setContent(html_94f896dbb36c7a28d61e2329a2acd37c);
+            
+        
+
+        marker_5b415fa7d3f9550f27f1d1ed37b0e30e.bindPopup(popup_2deb09dadeb8d38c0fbc06bcf3952387)
+        ;
+
+        
+    
+    
+            var marker_87f34f4c246702d180e23a1870e6c3fc = L.marker(
+                [38.26395453078934, -121.82979236114477],
+                {
+}
+            ).addTo(map_ddbbdf687110fa529e4450e8eefefa82);
+        
+    
+        var popup_d96b5d33da29111d5be4bf6975366ec4 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7e7407dab650fbdfe876db95a901d377 = $(`<div id="html_7e7407dab650fbdfe876db95a901d377" style="width: 100.0%; height: 100.0%;">Jepson Prairie Preserve</div>`)[0];
+                popup_d96b5d33da29111d5be4bf6975366ec4.setContent(html_7e7407dab650fbdfe876db95a901d377);
+            
+        
+
+        marker_87f34f4c246702d180e23a1870e6c3fc.bindPopup(popup_d96b5d33da29111d5be4bf6975366ec4)
+        ;
+
+        
+    
+    
+            var marker_42dacb18b62d6963ebbe1168dc4a9db0 = L.marker(
+                [39.12235357275233, -122.4296123993413],
+                {
+}
+            ).addTo(map_ddbbdf687110fa529e4450e8eefefa82);
+        
+    
+        var popup_099c8864b28c232bb42a485984e586a4 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_66b890723f8ab5100b7a3fd4c6f9cafc = $(`<div id="html_66b890723f8ab5100b7a3fd4c6f9cafc" style="width: 100.0%; height: 100.0%;">Bear Valley Wildflower</div>`)[0];
+                popup_099c8864b28c232bb42a485984e586a4.setContent(html_66b890723f8ab5100b7a3fd4c6f9cafc);
+            
+        
+
+        marker_42dacb18b62d6963ebbe1168dc4a9db0.bindPopup(popup_099c8864b28c232bb42a485984e586a4)
+        ;
+
+        
+    
+    
+            var marker_3d1d11dd385546684dc27633c4646a69 = L.marker(
+                [39.593437187506446, -121.55597851012159],
+                {
+}
+            ).addTo(map_ddbbdf687110fa529e4450e8eefefa82);
+        
+    
+        var popup_e02233f05971ca07c288f02a100dff25 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2b90a2f216b5ff2af9b6966fb9427264 = $(`<div id="html_2b90a2f216b5ff2af9b6966fb9427264" style="width: 100.0%; height: 100.0%;">North Table Mountain Ecological Reserve</div>`)[0];
+                popup_e02233f05971ca07c288f02a100dff25.setContent(html_2b90a2f216b5ff2af9b6966fb9427264);
+            
+        
+
+        marker_3d1d11dd385546684dc27633c4646a69.bindPopup(popup_e02233f05971ca07c288f02a100dff25)
+        ;
+
+        
+    
+    
+            var marker_7d1af2744b66947a02903968b845847c = L.marker(
+                [33.9984188354869, -119.9728505804854],
+                {
+}
+            ).addTo(map_ddbbdf687110fa529e4450e8eefefa82);
+        
+    
+        var popup_6f44d82ed7e2834f9875256a60109e8b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_545992df99b1ed204b597feb84b9913d = $(`<div id="html_545992df99b1ed204b597feb84b9913d" style="width: 100.0%; height: 100.0%;">Channel Islands National Park</div>`)[0];
+                popup_6f44d82ed7e2834f9875256a60109e8b.setContent(html_545992df99b1ed204b597feb84b9913d);
+            
+        
+
+        marker_7d1af2744b66947a02903968b845847c.bindPopup(popup_6f44d82ed7e2834f9875256a60109e8b)
+        ;
+
+        
+    
+    
+            var marker_fae62e5e50f807c3228cf85457889d53 = L.marker(
+                [34.128965776207394, -112.12291454939718],
+                {
+}
+            ).addTo(map_ddbbdf687110fa529e4450e8eefefa82);
+        
+    
+        var popup_ebf02a91f5ee80c1e8aac6b1ef073448 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_bd9bd37814a332179aa8c3ffa6257515 = $(`<div id="html_bd9bd37814a332179aa8c3ffa6257515" style="width: 100.0%; height: 100.0%;">Black Canyon City</div>`)[0];
+                popup_ebf02a91f5ee80c1e8aac6b1ef073448.setContent(html_bd9bd37814a332179aa8c3ffa6257515);
+            
+        
+
+        marker_fae62e5e50f807c3228cf85457889d53.bindPopup(popup_ebf02a91f5ee80c1e8aac6b1ef073448)
+        ;
+
+        
+    
+    
+            var marker_51f7edac263619a51be7fe8be5e873c2 = L.marker(
+                [33.59826618031862, -111.54542245970842],
+                {
+}
+            ).addTo(map_ddbbdf687110fa529e4450e8eefefa82);
+        
+    
+        var popup_84b1902b25c1964dc91d5f63a7046cab = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ad67be30f278a7ec443df350365ae652 = $(`<div id="html_ad67be30f278a7ec443df350365ae652" style="width: 100.0%; height: 100.0%;">Suguaro Lake</div>`)[0];
+                popup_84b1902b25c1964dc91d5f63a7046cab.setContent(html_ad67be30f278a7ec443df350365ae652);
+            
+        
+
+        marker_51f7edac263619a51be7fe8be5e873c2.bindPopup(popup_84b1902b25c1964dc91d5f63a7046cab)
+        ;
+
+        
+    
+    
+            var marker_ea5e1963425e77396378a62110054de3 = L.marker(
+                [33.27673379427367, -110.30621868814292],
+                {
+}
+            ).addTo(map_ddbbdf687110fa529e4450e8eefefa82);
+        
+    
+        var popup_0941412c8f2af6e228917ef9d6a38137 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4864b6e38f9bc37912a326cf74cc2186 = $(`<div id="html_4864b6e38f9bc37912a326cf74cc2186" style="width: 100.0%; height: 100.0%;">San Carlos Reservation</div>`)[0];
+                popup_0941412c8f2af6e228917ef9d6a38137.setContent(html_4864b6e38f9bc37912a326cf74cc2186);
+            
+        
+
+        marker_ea5e1963425e77396378a62110054de3.bindPopup(popup_0941412c8f2af6e228917ef9d6a38137)
+        ;
+
+        
+    
+    
+            var marker_42ae48eefc83ee63cf793490de938f14 = L.marker(
+                [35.020978959796324, -114.28358988413072],
+                {
+}
+            ).addTo(map_ddbbdf687110fa529e4450e8eefefa82);
+        
+    
+        var popup_2bd89bf14eabec54789d6bb51cfb9309 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_71dec323630fd5be1de3742d354b28d4 = $(`<div id="html_71dec323630fd5be1de3742d354b28d4" style="width: 100.0%; height: 100.0%;">Golden Valley</div>`)[0];
+                popup_2bd89bf14eabec54789d6bb51cfb9309.setContent(html_71dec323630fd5be1de3742d354b28d4);
+            
+        
+
+        marker_42ae48eefc83ee63cf793490de938f14.bindPopup(popup_2bd89bf14eabec54789d6bb51cfb9309)
+        ;
+
+        
+    
+    
+            var marker_7b7aa4e7af4889405077b0948d37b867 = L.marker(
+                [33.327840740274326, -112.36386463225203],
+                {
+}
+            ).addTo(map_ddbbdf687110fa529e4450e8eefefa82);
+        
+    
+        var popup_3661161ec86f6e27668f8320eae58095 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_404b5796fb3522d98d130ffe187e58d6 = $(`<div id="html_404b5796fb3522d98d130ffe187e58d6" style="width: 100.0%; height: 100.0%;">Estrella Mountain Regional Park</div>`)[0];
+                popup_3661161ec86f6e27668f8320eae58095.setContent(html_404b5796fb3522d98d130ffe187e58d6);
+            
+        
+
+        marker_7b7aa4e7af4889405077b0948d37b867.bindPopup(popup_3661161ec86f6e27668f8320eae58095)
+        ;
+
+        
+    
+    
+            var marker_991b7f4a3f8f6214f621a656c3430643 = L.marker(
+                [32.6319143372318, -111.41815605798082],
+                {
+}
+            ).addTo(map_ddbbdf687110fa529e4450e8eefefa82);
+        
+    
+        var popup_287e9be110505d7f950a1f0e2c667ec0 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_079bc6fd23c9602871b572381513bb79 = $(`<div id="html_079bc6fd23c9602871b572381513bb79" style="width: 100.0%; height: 100.0%;">Picacho Peak State Park</div>`)[0];
+                popup_287e9be110505d7f950a1f0e2c667ec0.setContent(html_079bc6fd23c9602871b572381513bb79);
+            
+        
+
+        marker_991b7f4a3f8f6214f621a656c3430643.bindPopup(popup_287e9be110505d7f950a1f0e2c667ec0)
+        ;
+
+        
+    
+    
+            var marker_a613e7671a108b030f269a273d3518d3 = L.marker(
+                [33.335509641369484, -112.07403555196544],
+                {
+}
+            ).addTo(map_ddbbdf687110fa529e4450e8eefefa82);
+        
+    
+        var popup_edbf7d6824a20a77e41fa31a872ac474 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4d2a4b653d620bd77dfae384c54d45e8 = $(`<div id="html_4d2a4b653d620bd77dfae384c54d45e8" style="width: 100.0%; height: 100.0%;">South Mountain Park and Preserve</div>`)[0];
+                popup_edbf7d6824a20a77e41fa31a872ac474.setContent(html_4d2a4b653d620bd77dfae384c54d45e8);
+            
+        
+
+        marker_a613e7671a108b030f269a273d3518d3.bindPopup(popup_edbf7d6824a20a77e41fa31a872ac474)
+        ;
+
+        
+    
+    
+            var marker_02fbb00f96973e402d32e3667c0f4fe6 = L.marker(
+                [36.27557707104869, -114.19532585775201],
+                {
+}
+            ).addTo(map_ddbbdf687110fa529e4450e8eefefa82);
+        
+    
+        var popup_038836943f0122c21c15a97772e45d75 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_415796b56d3d62869fb92fba1ccc895d = $(`<div id="html_415796b56d3d62869fb92fba1ccc895d" style="width: 100.0%; height: 100.0%;">Gold Butte National Monument</div>`)[0];
+                popup_038836943f0122c21c15a97772e45d75.setContent(html_415796b56d3d62869fb92fba1ccc895d);
+            
+        
+
+        marker_02fbb00f96973e402d32e3667c0f4fe6.bindPopup(popup_038836943f0122c21c15a97772e45d75)
+        ;
+
+        
+    
+    
+            var marker_e3b4622576743d63cf8294fc1e2015f5 = L.marker(
+                [34.65790284483364, -120.5157507534884],
+                {
+}
+            ).addTo(map_ddbbdf687110fa529e4450e8eefefa82);
+        
+    
+        var popup_539cf81d2fe86a0c18491653b89d0383 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_464f24c1d424f1b5c20ba28bbb21e284 = $(`<div id="html_464f24c1d424f1b5c20ba28bbb21e284" style="width: 100.0%; height: 100.0%;">Lompoc Flower Fields</div>`)[0];
+                popup_539cf81d2fe86a0c18491653b89d0383.setContent(html_464f24c1d424f1b5c20ba28bbb21e284);
+            
+        
+
+        marker_e3b4622576743d63cf8294fc1e2015f5.bindPopup(popup_539cf81d2fe86a0c18491653b89d0383)
+        ;
+
+        
+    
+    
+            var marker_60c4a60ed3d712eb965bba1ba6456c98 = L.marker(
+                [33.12859425325293, -117.31926791512655],
+                {
+}
+            ).addTo(map_ddbbdf687110fa529e4450e8eefefa82);
+        
+    
+        var popup_0592029b34699a599bc554b69de1097f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6b6c073ee978a8de66761742b340c60e = $(`<div id="html_6b6c073ee978a8de66761742b340c60e" style="width: 100.0%; height: 100.0%;">Carlsbad Ranch</div>`)[0];
+                popup_0592029b34699a599bc554b69de1097f.setContent(html_6b6c073ee978a8de66761742b340c60e);
+            
+        
+
+        marker_60c4a60ed3d712eb965bba1ba6456c98.bindPopup(popup_0592029b34699a599bc554b69de1097f)
+        ;
+
+        
+    
+    
+            var marker_afa992e27988afaf5ec0b5c1482a3d72 = L.marker(
+                [38.55726528818411, -121.82534662267716],
+                {
+}
+            ).addTo(map_ddbbdf687110fa529e4450e8eefefa82);
+        
+    
+        var popup_5d4a768336d65e8452c50dd61e3ea422 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5d810e69a1a45328dbd0d37782b02d08 = $(`<div id="html_5d810e69a1a45328dbd0d37782b02d08" style="width: 100.0%; height: 100.0%;">Yolo sunflowers</div>`)[0];
+                popup_5d4a768336d65e8452c50dd61e3ea422.setContent(html_5d810e69a1a45328dbd0d37782b02d08);
+            
+        
+
+        marker_afa992e27988afaf5ec0b5c1482a3d72.bindPopup(popup_5d4a768336d65e8452c50dd61e3ea422)
+        ;
+
+        
+    
+</script>
+</html>
